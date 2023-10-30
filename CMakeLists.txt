@@ -1,4 +1,21 @@
 cmake_minimum_required(VERSION 2.6)
+
+# set(CMAKE_MAKE_PROGRAM "D:/APPS/Microsoft/VisualStudio/2022-community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe")
+# set(CMAKE_TOOLCHAIN_FILE "V:/githubs/vcpkg/scripts/buildsystems/vcpkg.cmake")
+
+# set(CMAKE_SYSTEM_NAME Windows)
+
+# set(CMAKE_C_COMPILER x86_64-w64-mingw32-gcc)
+# set(CMAKE_CXX_COMPILER x86_64-w64-mingw32-g++)
+# set(CMAKE_RC_COMPILER x86_64-w64-mingw32-windres)
+
+# set(CMAKE_FIND_ROOT_PATH /usr/x86_64-w64-mingw32)
+
+# set(CMAKE_SHARED_LIBRARY_LINK_C_FLAGS "")
+# set(CMAKE_SHARED_LIBRARY_LINK_CXX_FLAGS "")
+
+# set(BOOST_LIBRARYDIR "/usr/include/boost")
+
 project(mapcrafter)
 
 option(OPT_DEBUG "Sets debug compiler flags" OFF)
